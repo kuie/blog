@@ -5,7 +5,7 @@ let config = {
         baseApi: '/api',
     },
     mongodb: {
-        url: process.env.MONGO_URL || 'mongodb://192.168.6.203:27017/vue-blog',
+        url: process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/vue-blog',
     },
     jwt: {
         secret: 'me', // 默认
